@@ -1,0 +1,355 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/remixicon@3.0.0/fonts/remixicon.css"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <title>Pearl Island Travels</title>
+  </head>
+  <body>
+    <nav>
+      <div class="nav__logo"><a href="index.html">Pearl Island Travels</a></div>
+      <ul class="nav__links">
+        <li class="link"><a href="index.html">Home</a></li>
+        <li class="link"><a href="#" onclick="openYouTube()">Blog</a></li>
+        <li class="link"><a href="#services">Offers</a></li>
+        <li class="link"><a href="#services">Services</a></li>
+        <li class="link"><a href="#contact">Contacts</a></li>
+        <li class="link"><a href="log.html">Login</a></li>
+      </ul> 
+    </nav>
+    <br>
+    <header>
+      <div class="section__container">
+        <div class="header__content">
+          <h1>Explore Sri Lanka</h1>
+          <p>
+            Sri Lanka is a beautiful island with a rich cultural heritage.
+            Explore the misty trails of <b>Horton Plains National Park</b>,
+            the historic <b>Trincomalee Harbour</b>, and <b>Arugam Bay Beach</b> for surfing.
+            Visit <b>Delft Island</b> for wild ponies and colonial ruins,
+            and admire the intricate wood carvings at <b>Embekka Dewalaya</b>.
+            Finally, relax on the golden sands of <b>Mirissa</b> for whale watching and breathtaking sunsets.
+          </p>
+          <button onclick="window.open('https://en.wikipedia.org/wiki/Tourism_in_Sri_Lanka','_blank');">Read more</button>
+        </div>
+      </div>
+    </header>
+
+    <section class="journey__container">
+      <div class="section__container">
+        <h2 class="section__title">Start Your Journey</h2>
+        <p class="section__subtitle">The most attracted destinations in the Island</p>
+        <div class="journey__grid">
+          <div class="country__card">
+            <a href="https://www.google.com/maps/place/Horton+Plains/@6.8252989,80.7108113,15z/data=!3m1!4b1!4m6!3m5!1s0x3ae38f535203dda3:0x9e2456fee60625f3!8m2!3d6.8252778!4d80.7211111!16s%2Fg%2F11c1w_0drr?entry=ttu&g_ep=EgoyMDI1MDEyOS4xIKXMDSoASAFQAw%3D%3D" 
+               target="_blank" 
+               title="Horton Plains"
+               rel="noopener noreferrer">
+            <img src="horton.JPG" alt="Horton Plains"/>
+            </a>
+            
+            <div class="country__name">
+                <i class="ri-map-pin-2-fill"></i>
+                <span>
+                  <a href="https://www.google.com/maps/place/Horton+Plains/@6.8252989,80.7108113,15z/data=!3m1!4b1!4m6!3m5!1s0x3ae38f535203dda3:0x9e2456fee60625f3!8m2!3d6.8252778!4d80.7211111!16s%2Fg%2F11c1w_0drr?entry=ttu&g_ep=EgoyMDI1MDEyOS4xIKXMDSoASAFQAw%3D%3D" 
+                  class="location__link" 
+                  target="_blank" 
+                  title="Horton Plains"
+                  rel="noopener noreferrer">
+                  Horton Plains
+                  </a>
+                </span>
+            </div>
+          </div>        
+          <div class="country__card">
+            <a href="https://www.google.com/maps/place/Trincomalee+Harbour/@8.5333542,81.2397002,15z/data=!3m1!4b1!4m6!3m5!1s0x3afba36226f5015f:0x624b2943a854c4c8!8m2!3d8.5333333!4d81.25!16s%2Fm%2F09rx0nd?entry=ttu&g_ep=EgoyMDI1MDEyOS4xIKXMDSoASAFQAw%3D%3D" 
+            target="_blank" 
+            rel="noopener noreferrer" 
+            title="Trincomalee Harbour"
+            rel="noopener noreferrer">
+            <img src="trinco.JPG" alt="Trincomalee Harbour"/>
+            </a>
+            <div class="country__name">
+              <i class="ri-map-pin-2-fill"></i>
+              <span>
+                <a 
+                  href="https://www.google.com/maps/place/Trincomalee+Harbour/@8.5333542,81.2397002,15z/data=!3m1!4b1!4m6!3m5!1s0x3afba36226f5015f:0x624b2943a854c4c8!8m2!3d8.5333333!4d81.25!16s%2Fm%2F09rx0nd?entry=ttu&g_ep=EgoyMDI1MDEyOS4xIKXMDSoASAFQAw%3D%3D" 
+                  target="_blank" 
+                  rel="noopener noreferrer" 
+                  title="Trincomalee Harbour">
+                  Trincomalee Harbour
+                </a>
+            </span>
+            </div>
+          </div>
+          <div class="country__card">
+            <a href="https://www.google.com/maps/place/Arugam+Bay+Beach/@6.8437127,81.8259733,15z/data=!3m1!4b1!4m6!3m5!1s0x3ae5a2d27b6fafbf:0xc6efd6b59df5db34!8m2!3d6.8404078!4d81.8368478!16zL20vMGI2amNy?entry=ttu&g_ep=EgoyMDI1MDEyOS4xIKXMDSoASAFQAw%3D%3D" 
+            target="_blank" 
+            rel="noopener noreferrer" 
+            title="Arugam Bay Beach"
+            rel="noopener noreferrer">
+            <img src="arugam.JPG" alt="Arugam Bay Beach"/>
+            </a>
+            <div class="country__name">
+              <i class="ri-map-pin-2-fill"></i>
+              <span>
+                <a 
+                  href="https://www.google.com/maps/place/Arugam+Bay+Beach/@6.8437127,81.8259733,15z/data=!3m1!4b1!4m6!3m5!1s0x3ae5a2d27b6fafbf:0xc6efd6b59df5db34!8m2!3d6.8404078!4d81.8368478!16zL20vMGI2amNy?entry=ttu&g_ep=EgoyMDI1MDEyOS4xIKXMDSoASAFQAw%3D%3D" 
+                  target="_blank" 
+                  rel="noopener noreferrer" 
+                  title="Arugam Bay Beach">
+                  Arugam Bay Beach
+                </a>
+            </span>
+            
+            </div>
+          </div>
+          <div class="country__card">
+            <a href="https://www.google.com/maps/place/Delft+Island/@9.5153866,79.6497187,13z/data=!3m1!4b1!4m6!3m5!1s0x3afe390338a1e855:0x4d88d1edc8ca320d!8m2!3d9.5141497!4d79.6838874!16s%2Fg%2F1q67c2w5w?entry=ttu&g_ep=EgoyMDI1MDEyOS4xIKXMDSoASAFQAw%3D%3D" 
+            target="_blank" 
+            rel="noopener noreferrer" 
+            title="Delft Island"
+            rel="noopener noreferrer">
+            <img src="delft.JPG" alt="Delft Island"/>
+            </a>
+            <div class="country__name">
+              <i class="ri-map-pin-2-fill"></i>
+              <span>
+                <a 
+                  href="https://www.google.com/maps/place/Delft+Island/@9.5153866,79.6497187,13z/data=!3m1!4b1!4m6!3m5!1s0x3afe390338a1e855:0x4d88d1edc8ca320d!8m2!3d9.5141497!4d79.6838874!16s%2Fg%2F1q67c2w5w?entry=ttu&g_ep=EgoyMDI1MDEyOS4xIKXMDSoASAFQAw%3D%3D" 
+                  target="_blank" 
+                  rel="noopener noreferrer" 
+                  title="Delft Island">
+                  Delft Island, Jaffna
+                </a>
+            </span>
+            
+            </div>
+          </div>
+          <div class="country__card">
+            <a href="https://www.google.com/maps/place/Embekka+Dewalaya/@7.2179497,80.5651362,17z/data=!4m6!3m5!1s0x3ae36ef317bb65e5:0x6787aeef212af953!8m2!3d7.2179444!4d80.5677111!16s%2Fm%2F04g25jj?entry=ttu&g_ep=EgoyMDI1MDEyOS4xIKXMDSoASAFQAw%3D%3D" 
+            target="_blank" 
+            rel="noopener noreferrer" 
+            title="Embekka Dewalaya"
+            rel="noopener noreferrer">
+            <img src="Embekka.JPG" alt="Embekka Dewalaya"/>
+            </a>
+            <div class="country__name">
+              <i class="ri-map-pin-2-fill"></i>
+              <span>
+                <a 
+                  href="https://www.google.com/maps/place/Embekka+Dewalaya/@7.2179497,80.5651362,17z/data=!4m6!3m5!1s0x3ae36ef317bb65e5:0x6787aeef212af953!8m2!3d7.2179444!4d80.5677111!16s%2Fm%2F04g25jj?entry=ttu&g_ep=EgoyMDI1MDEyOS4xIKXMDSoASAFQAw%3D%3D" 
+                  target="_blank" 
+                  rel="noopener noreferrer" 
+                  title="Embekka Dewalaya">
+                  Embekka Dewalaya
+                </a>
+            </span>
+            
+            </div>
+          </div>
+          <div class="country__card">
+            <a href="https://www.google.com/maps/place/Yala+National+Park+Sri+Lanka/@6.4913849,81.421558,17z/data=!3m1!4b1!4m6!3m5!1s0x3ae683b969aec5c7:0x7e3aa2da875d927e!8m2!3d6.4913796!4d81.4261714!16s%2Fg%2F1q62mmzbt?entry=ttu&g_ep=EgoyMDI1MDEyOS4xIKXMDSoASAFQAw%3D%3D" 
+            target="_blank" 
+            rel="noopener noreferrer" 
+            title="Yala National Park Sri Lanka"
+            rel="noopener noreferrer">
+            <img src="Yalapark.JPG" alt="Yala National Park Sri Lanka"/>
+            </a>
+            <div class="country__name">
+              <i class="ri-map-pin-2-fill"></i>
+              <span>
+                <a 
+                href="https://www.google.com/maps/place/Yala+National+Park+Sri+Lanka/@6.4913849,81.421558,17z/data=!3m1!4b1!4m6!3m5!1s0x3ae683b969aec5c7:0x7e3aa2da875d927e!8m2!3d6.4913796!4d81.4261714!16s%2Fg%2F1q62mmzbt?entry=ttu&g_ep=EgoyMDI1MDEyOS4xIKXMDSoASAFQAw%3D%3D" 
+                target="_blank" 
+                rel="noopener noreferrer" 
+                title="Yala National Park Sri Lanka">
+                Yala National Park Sri Lanka
+                </a>
+            </span>            
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="banner__container">
+      <div class="section__container">
+        <div class="banner__content">
+          <h2>Release your liberation</h2>
+          <p>
+            Explore and experience the marvels of Sri Lanka at your own pace. From pristine beaches, eye-catching cities, and the unique cuisine, you can discover a hidden gem and build a custom trip of for yourself. Build your own journey, and enjoy your freedom as you see fit.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <section id="services" class="services">
+      <h2 class="our-service">Our Services and Offers</h2><br>
+      <div class="service-container">
+          <div class="service-card">
+              <img src="sri-lanka-tours.JPG" alt="Tours">
+              <h3>Guided Tours</h3>
+              <p>Experience breathtaking adventures with our professionally guided tours across exotic destinations.</p>
+              <a href="service.pdf" class="btn" target="_blank" title="Our Services">Book a Tour</a>
+          </div>
+          <div class="service-card">
+              <img src="hotels.JPG" alt="Hotel Reservations">
+              <h3>Hotel Reservations</h3>
+              <p>Find the best hotel deals with ease. We handle your accommodation bookings so you can relax and enjoy.</p>
+              <a href="Hotels.pdf" class="btn" target="_blank" title="Our Services">Reserve a Hotel</a>
+          </div>
+          <div class="service-card">
+            <img src="offers1.JPG" alt="offers">
+            <h3>Exclusive Offers</h3>
+            <p>Unlock exclusive deals on guided tours and hotel bookings for a memorable Sri Lankan adventure. Enjoy great savings and personalized experiences!</p>
+            <a href="off.pdf" class="btn" target="_blank" title="Our Offers">See Offers</a>
+        </div>
+      </div>
+    </section>
+    
+    <section class="display__container">
+      <div class="section__container">
+        <h2 class="section__title">Why Select Us</h2>
+        <p class="section__subtitle">
+          Begin your trip in the best way possible with expert guidance, personalized service, and insider tips. From breathtaking views to hidden cultural gems, we craft extraordinary moments where every second spent in Sri Lanka is truly unforgettable. Knowing this, travel with confidence—it is from here that your journey starts.
+        </p>
+        <div class="display__grid">
+          <div class="display__card grid-1">
+            <img src="image1.JPG" alt="image" />
+          </div>
+          <div class="display__card">
+            <i class="ri-earth-line"></i>
+            <h4>Enthusiastic Exploration</h4>
+            <p>Set ablaze your spirit of adventure and let yourself roam freely around the world. Take full advantage of the majestic scenery, rich cultures, and incredible moments that fuel your desire to travel.
+            </p>
+          </div>
+          <div class="display__card1">
+            <img src="image2.JPG" alt="image" />
+          </div>
+          <div class="display__card2">
+            <img src="image3.JPG" alt="image" />
+          </div>
+          <div class="display__card">
+            <i class="ri-road-map-line"></i>
+            <h4>Gorgeous Locations</h4>
+            <p>Discover the most remarkable places on Earth where beautiful views, diverse cultures, and treasures of memorable moments live. Enjoy every trip, for each one has a new saga waiting to unfold.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section id="contact" class="contact__container">
+      <div class="section__container">
+        <h2 class="section__title">Contact Us</h2>
+        <p class="section__subtitle">We would be delighted to hear from you!</p>
+        <div class="contact__details">
+          <div class="contact__info">
+            <h4>Our Office</h4>
+            <p>No. 42, Galle Road,
+              Colombo 03, Sri Lanka</p>
+          </div>
+          <div class="contact__info">
+            <h4>Phone</h4>
+            <p><a href="tel:+94112345678" target="_blank">+94 112345678</a></p>
+          </div>
+          <div class="contact__info">
+            <h4>Email</h4>
+            <p><a href="info@PearlIslandTravels.com" target="_blank"
+              title="Email">info@PearlIslandTravels.com</a></p>
+          </div>
+        </div>
+        <form class="contact__form">
+          <label for="name">Your Name</label>
+          <input type="text" id="name" name="name" required />
+  
+          <label for="email">Your Email</label>
+          <input type="email" id="email" name="email" required />
+  
+          <label for="message">Your Message</label>
+          <textarea id="message" name="message" required></textarea>
+  
+          <button type="submit">Send Message</button>
+        </form>
+      </div>
+      <div class="whatsapp-contact">
+        <a href="https://wa.me/+94776974169" target="_blank" class="whatsapp-link">
+          <img src="img.PNG" alt="WhatsApp Logo" class="whatsapp-logo">
+        </a>
+      </div>
+    </section>
+    
+    <footer>
+      <div class="section__container">
+        <h4>Pearl Island Travels</h4>
+        <div class="social__icons">
+          <a href="https://www.facebook.com" target="_blank" rel="noopener noreferrer">
+            <i class="ri-facebook-fill"></i>
+          </a>
+          <a href="https://www.twitter.com" target="_blank" rel="noopener noreferrer">
+            <i class="ri-twitter-fill"></i>
+          </a>
+          <a href="https://www.instagram.com" target="_blank" rel="noopener noreferrer">
+            <i class="ri-instagram-line"></i>
+          </a>
+          <a href="https://www.linkedin.com" target="_blank" rel="noopener noreferrer">
+            <i class="ri-linkedin-fill"></i>
+          </a>
+        </div>
+        <p>Stay connected with us through our social media channels for the latest updates and offers.</p>
+        <p>Its history, delightful culture, renowed beaches, and awe-inspiring landscapes blend together in a single country.</p>
+      </div>
+    </footer>
+
+    <button id="backToTop" title="Go to top"><i class="fas fa-arrow-up"></i></button>
+
+
+  
+    <script>
+      function openYouTube() {
+          window.open("https://www.youtube.com/watch?v=WGdNc8Q0hrk&pp=ygUidHJhdmVsIGFuZCB0b3VyaXNtIHNyaSBsYW5rYSBibG9ncw%3D%3D","_blank");
+      }
+      document.querySelector('.contact__form').addEventListener('submit', function(e) {
+    e.preventDefault(); 
+
+    
+    const name = document.getElementById('name').value;
+    const email = document.getElementById('email').value;
+    const message = document.getElementById('message').value;
+
+    
+    alert(`Name: ${name}\nEmail: ${email}\nMessage: ${message}`);
+
+    
+    this.reset();
+  });
+
+  
+let mybutton = document.getElementById("backToTop");
+
+
+window.onscroll = function() {
+  if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+    mybutton.style.display = "block";
+  } else {
+    mybutton.style.display = "none";
+  }
+};
+
+mybutton.onclick = function() {
+  document.body.scrollTop = 0;
+  document.documentElement.scrollTop = 0;
+};
+
+      
+    </script>
+ 
+ </body>
+</html>
